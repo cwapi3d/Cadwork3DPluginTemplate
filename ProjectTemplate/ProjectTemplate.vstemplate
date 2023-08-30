@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Type="Project" Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+	<TemplateData>
+		<Name>Cadwork 3D Plugin</Name>
+		<Description>An easy to use template for creating Cadwork 3D plugins.</Description>
+		<Icon>ProjectTemplate.ico</Icon>
+		<ProjectType>VC</ProjectType>
+		<LanguageTag>Cpp</LanguageTag>
+		<PlatformTag>Windows</PlatformTag>
+		<ProjectTypeTag>Desktop</ProjectTypeTag>
+		<SortOrder>1</SortOrder>
+		<TemplateID>d247fb40-3d2a-491e-8b29-e942e9616fb3</TemplateID>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>MyCadwork3DPlugin</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<CreateInPlace>true</CreateInPlace>
+	</TemplateData>
+	<TemplateContent>
+		<Project File="Plugin.vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcxproj.filters">Plugin.vcxproj.filters</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.h">Plugin.h</ProjectItem>
+			<ProjectItem OpenInEditor="true" ReplaceParameters="true" TargetFileName="$projectname$.cpp">Plugin.cpp</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.rc">Plugin.rc</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="resource.h">resource.h</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="plugin_info.xml">plugin_info.xml</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="icon.svg">icon.svg</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3D.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3DInternal.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3DTypes.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DActivationState.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DAttributeController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DAttributeDisplaySettings.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DBimController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DConnectorAxisController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DControllerFactory.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DDimensionController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DDisplayAttribute.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DEdgeList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementFilter.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementIDList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementIDListMap.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementMapQuery.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementModuleProperties.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DElementType.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DEndtypeController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DExtendedSettings.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DFacetList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DFileController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DGeometryController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DGridController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DIfc2x3ElementType.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DLayerSettings.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DListController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DMachineController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DMaterialController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DMaterialIDList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DMenu.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DMenuController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DPolygonList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DProcessType.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DRoofController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DSceneController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DShopDrawingController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DString.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DStringList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DUtilityController.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DVertexList.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DVisibilityState.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false">cwapi3d/ICwAPI3DVisualizationController.h</ProjectItem>
+		</Project>
+	</TemplateContent>
+	<WizardExtension>
+		<Assembly>ProjectWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=9c51237123105968</Assembly>
+		<FullClassName>ProjectWizard.WizardImplementation</FullClassName>
+	</WizardExtension>
+</VSTemplate>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PluginInfo>
+    <Version>1.0.0.0</Version>
+    <Date>$cwtodaydate$</Date>
+    <Author>$cwauthorname$</Author>
+    <Name>
+      <Text language="German">$projectname$</Text>
+      <Text language="English">$projectname$</Text>
+      <Text language="French">$projectname$</Text>
+      <Text language="Italian">$projectname$</Text>
+      <Text language="Spanish">$projectname$</Text>
+      <Text language="Czech">$projectname$</Text>
+      <Text language="Finnish">$projectname$</Text>
+      <Text language="Russian">$projectname$</Text>
+      <Text language="Polish">$projectname$</Text>
+      <Text language="Romanian">$projectname$</Text>
+      <Text language="Norwegian">$projectname$</Text>
+      <Text language="Chinese">$projectname$</Text>
+      <Text language="Portuguese">$projectname$</Text>
+      <Text language="Estonian">$projectname$</Text>
+      <Text language="Japanese">$projectname$</Text>
+    </Name>
+    <Description>
+      <Text language="German"/>
+      <Text language="English"/>
+      <Text language="French"/>
+      <Text language="Italian"/>
+      <Text language="Spanish"/>
+      <Text language="Czech"/>
+      <Text language="Finnish"/>
+      <Text language="Russian"/>
+      <Text language="Polish"/>
+      <Text language="Romanian"/>
+      <Text language="Norwegian"/>
+      <Text language="Chinese"/>
+      <Text language="Portuguese"/>
+      <Text language="Estonian"/>
+      <Text language="Japanese"/>
+    </Description>
+</PluginInfo>
