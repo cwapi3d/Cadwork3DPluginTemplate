@@ -21,11 +21,12 @@
 			<ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.h">Plugin.h</ProjectItem>
 			<ProjectItem OpenInEditor="true" ReplaceParameters="true" TargetFileName="$projectname$.cpp">Plugin.cpp</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.rc">Plugin.rc</ProjectItem>
-			<ProjectItem ReplaceParameters="false" TargetFileName="resource.h">resource.h</ProjectItem>
-			<ProjectItem ReplaceParameters="true" TargetFileName="plugin_info.xml">plugin_info.xml</ProjectItem>
-			<ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-			<ProjectItem ReplaceParameters="false" TargetFileName="icon.svg">icon.svg</ProjectItem>
-			<ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+			<ProjectItem ReplaceParameters="false">resource.h</ProjectItem>
+			<ProjectItem ReplaceParameters="true">plugin_info.xml</ProjectItem>
+			<ProjectItem ReplaceParameters="false">icon.png</ProjectItem>
+			<ProjectItem ReplaceParameters="false">icon.svg</ProjectItem>
+			<ProjectItem ReplaceParameters="true">README.md</ProjectItem>
+			<ProjectItem ReplaceParameters="true">CopyPlugin.ps1</ProjectItem>
 			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3D.h</ProjectItem>
 			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3DInternal.h</ProjectItem>
 			<ProjectItem ReplaceParameters="false">cwapi3d/CwAPI3DTypes.h</ProjectItem>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Cadwork.CwAPI3D.Cadwork3DPluginTemplate" Version="30.5" Language="en-US" Publisher="Cadwork" />
+        <Identity Id="Cadwork.CwAPI3D.Cadwork3DPluginTemplate" Version="30.5.1" Language="en-US" Publisher="Cadwork" />
         <DisplayName>Cadwork 3D Plugin Template</DisplayName>
         <Description xml:space="preserve">An easy to use template for creating Cadwork 3D plugins.</Description>
         <Preview>true</Preview>
